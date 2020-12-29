@@ -1,0 +1,43 @@
+.cardContainer {
+    max-height: 190px;
+    max-width: 30%;
+    min-width: 30%;
+    background: white;
+    text-align: center;
+    box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    padding:10px;
+    margin: 7.5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;   
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;    
+}
+
+.cardContent h1 {
+    font-size: 50px;
+}
+
+.cardFooter {
+    
+    width: 100%;
+    align-items: flex-start;   
+}

@@ -1,0 +1,176 @@
+.listViewContainer {
+    width: 100%;
+    min-width: 30%;
+    background: white;
+    text-align: center;
+    box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    margin: 7.5px;
+    padding:15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.listViewHeader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    /* border-color:#dedede;
+    border-bottom-width: 0.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid; */
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.listViewHeaderLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+.listViewHeader h1 {
+    font-size: 59px;
+}
+
+.listViewHeader h3 {
+    color: #4d4d4d;
+    font-weight: 1000;
+    /* background: grey; */
+}
+
+.listViewHeaderRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* background-color: green; */
+    width: 100%;
+
+}
+.listViewHeaderCenter {
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    width: 100%;
+
+}
+
+.listViewContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;    
+    
+}
+
+.listViewContent table {
+    width:100%;
+    text-align: left;
+    padding-left: 15px;
+    border-spacing: 0px;
+    
+}   
+
+.listViewContent th {
+    padding:5px;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    /* background: #f3f3f3 ; */
+    border-bottom: 1px solid #dfdfdf;
+    
+}
+
+.listViewContent td {
+    padding:5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    border-top: 1px solid #f3f3f3;
+    white-space: pre-line;
+    max-width: 150px;
+    max-lines: 1;
+
+}
+
+.listViewContent tr:hover {
+    
+    padding:5px;
+    background:#f3f3f3;
+}
+
+.listViewContent h1 {
+    font-size: 50px;
+}
+
+.listViewFooter {
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    align-items: flex-start;   
+}
+
+.newProduct {
+    background:rgb(46, 148, 188);
+    padding: 5px 15px;
+    border-radius: 3px;
+    color:white;
+    /* max-width: 60px; */
+    text-align: center;
+    margin:3px;
+    cursor: pointer;
+
+}
+
+.statusAtivo {
+    background:#2EBC9B;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    max-width: 60px;
+    text-align: center;
+    margin:3px
+}
+
+.statusLixo {
+    background:#EB3448;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    max-width: 60px;
+    text-align: center;
+    margin:3px
+
+}
+
+.statusInativo {
+    background:#FFCE00;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    max-width: 60px;
+    text-align: center;
+    margin:3px
+}
+
+.searchForm {
+    background:#f3f3f3;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    color:#4d4d4d;
+    width: 100%;
+    text-align: center;
+    margin:3px;
+    text-align: left;
+    
+}

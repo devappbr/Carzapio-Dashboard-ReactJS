@@ -1,0 +1,139 @@
+.formContainer {
+    min-width: 50%;
+    background:white;
+    text-align: center;
+    box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    margin: 7.5px;
+    padding:15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.formHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.formHeader h3 {
+    color: #4d4d4d;
+    font-weight: 1000;
+}
+.formContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-bottom: 30px; */
+    width: 100%;
+    align-items: center;    
+    
+}
+.formContent table {
+    width:100%;
+    text-align: center;
+}
+.formContent th {
+    padding-left:10px;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-align: left;
+    width: 33%;
+}
+
+.formContent td {
+    text-align: left;
+    padding:5px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    max-width: 50px;
+    /* background: cyan; */
+
+}
+.formContent input {
+    width: 100%;
+    height: 33px;
+    text-align: left;
+    padding: 5px;
+    border-spacing: 0px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;  
+    border-radius: 2px;
+    /* background-image: url('https://img.icons8.com/dusk/2x/money.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat; */
+}
+.formContent input[type=text]:focus {
+    
+    border-bottom: 1px solid #EB3448;
+   
+}   
+.formContent textarea {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    border-spacing: 0px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;  
+    height: 80px;
+    box-sizing: border-box;
+    resize: none;
+    
+
+}   
+.formContent textarea:focus {
+    
+    border-bottom: 1px solid #EB3448;
+    
+} 
+
+/* .formContent tr:hover {
+    
+    padding:5px;
+    
+} */
+
+/* .formContent h1 {
+    font-size: 50px;
+} */
+
+/* .formFooter {
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    align-items: flex-start;   
+} */
+
+.statusAtivo {
+    background:#2EBC9B;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    max-width: 60px;
+    text-align: center;
+
+}
+
+.statusLixo {
+    background:#EB3448;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    max-width: 60px;
+    text-align: center;
+
+}
+
+.statusInativo {
+    background:#FFCE00;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    max-width: 60px;
+    text-align: center;
+
+}

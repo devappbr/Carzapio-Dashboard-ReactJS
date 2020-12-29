@@ -1,0 +1,47 @@
+input[type=button], input[type=submit], input[name='Salvar'], input[type=reset] {
+    background-color:white;
+    color:  #EB3448;
+    padding: 5px 30px;
+    border: 1px #EB3448 solid;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+  }
+
+  input[type=button], input[type=submit]:hover, input[name='Salvar'], input[type=reset] {
+    background-color:#EB3448;
+    color:  white;
+    
+  }
+
+  .btn button {
+    background-color:white;
+    color:  #EB3448;
+    padding: 5px 30px;
+    border: 1px #EB3448 solid;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+  }
+
+  .btn button:hover {
+    background-color:#EB3448;
+    color:  white;
+    padding: 5px 30px;
+    border: 1px #EB3448 solid;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+  }
